@@ -1,0 +1,69 @@
+<!-- 
+### Create a website having 3 separate pages.
+
+#### TODO 💻:
+
+1. Create a multi-page website, having at least three pages connected.
+
+2. Each page must have one header and footer.
+
+3. In between the header and footer, there must be the main content of the page.
+
+4. The main content must have at least two articles.
+
+5. Each article must have one image.
+
+6. Use different background colors for different pages.
+
+7. Using CSS resets is necessary.
+
+- use appropriate semantic tags and keep the nesting and indentation clean-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF" />
+        <title>Hello World</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head> 
+    <body id="top">
+        <div class="home">
+            <header>
+                <h1>List of Articles</h1>
+                <nav>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="service.html">Services</a>
+                    <a href="https://google.com/" target="_blank">Google</a>
+                </nav>
+            </header>
+            <main>
+                <section>
+                  <article>
+                    <header>
+                      <h2>Lorem ipsumb dolor sit</h2>
+                      <img src="istockphoto-1090081372-170667a.jpg" alt="monkey" width="400">
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                    </header>
+                  </article>
+                </section>
+                  <article>
+                    <header>
+                        <h2>Lorem ipsum dolor sit</h2>
+                        <img src="istockphoto-1090081372-170667a.jpg" alt="monkey width=400">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </header>
+                  </article>
+            </main>
+            <footer>
+                <h3>Footer</h3>
+                <nav>
+                    <a href="#" traget="_blank">Facebook</a>
+                    <a href="#" traget="_blank">Twitter</a>
+                    <a href="#" traget="_blank">Instragram</a>
+                </nav>
+                <a href="mailto:xyz@gmail.com?subject=Reaching out$body=Hoe are you doing?" class="btn">Mail Me</a>
+                <a href="#top" class="btn">Back to Top</a>
+            </footer>
+        </div>
+    </body>
+</html>
